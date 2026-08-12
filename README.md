@@ -1,5 +1,5 @@
 # WEDE5020-PART-ONE
-Project Title : 
+Project Title: 
 Website creation for HavenRoots Youth & Community Foundation 
 Student Information:
 ST Number: ST10127622
