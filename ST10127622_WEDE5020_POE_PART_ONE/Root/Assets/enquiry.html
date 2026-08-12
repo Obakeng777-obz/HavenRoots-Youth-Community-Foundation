@@ -1,63 +1,88 @@
 <!DOCTYPE html>
 <html>
+    <!--The Title of the page thats going to show on the page bar-->
     <head>
         <title>Enquiry</title>
     </head>
     <body>
         <div>
-            <a href="index.html">|Home-Page|</a>
+            <!--This is the code thats for the logo next to the navigation bar-->
+            <img src="../Images/Logo1.jpg" alt="Logo" width="60" height="60">
+            <!--This is the code for the navigation bar for all the pages-->
+            <a href="../index.html">|Home-Page|</a>
             <a href="about.html">|About-Us|</a>
+            <a href="voices.html">|Voices|</a>
             <a href="#">|Enquiry|</a>
             <a href="contact.html">|Contact-Us|</a>
         </div>
         
+        <!--The first heading of the page in heading one style-->
         <h1>HavenRoots Get Involved Inquiry Form</h1>
         <p>
+            <!--The Second heading of the page in heading three style-->
             <h3>Contact Information</h3>
             <ul>
-                <li>Full Name: [ ]</li>
-                <li>Email Address: [ ]</li>
-                <li>Phone Number: [ ]</li>
-                <li>Organization/Company Name(if applicable): [ ]</li>
+                <!--Bullet points along with Functions for user to put in details-->
+                <li>Full Name: </li>
+                <input type="text"><br/>
+                <li>Email Address: </li>
+                <input type="text"><br/>
+                <li>Phone Number: </li>
+                <input type="text"><br/>
+                <li>Organization/Company Name(if applicable): </li>
+                <input type="text"><br/>
             </ul>
         </p>
         <p>
+            <!--The Third heading of the page in heading three style-->
             <h3>How would you like to get involved?</h3>
             (Please select all that apply)
             <ul>
-                <li>[ ] Volunteer Opportunities</li>
-                <li>[ ] Sponsorship & Corporate Partnership</li>
-                <li>[ ] In-Kind Donations (Supplies, Equipment, Food)</li>
+                <!--Bullet points along with Function for user to check a checkbox-->
+                <li><input type="checkbox" id="Volunteer" name="volunteer"> Volunteer Opportunities</li>
+                <li><input type="checkbox" id="Sponsorship" name="Sponsorship"> Sponsorship & Corporate Partnership</li>
+                <li><input type="checkbox" id="Donations" name="Donations"> In-Kind Donations (Supplies, Equipment, Food)</li>
             </ul>
         </p>
         <p>
+            <!--The Fourth heading of the page in heading three style-->
             <h3>Volunteer Details(Complete if volunteering)</h3>
-            (Please select what those that apply)<br>
+            (Please select what those that apply)
             <ul>
+                <!--Bullet points-->
                 <li>Areas of interest:
                     <ul>
-                        <li>[ ] After-School Tutoring & Mentorship (Ages 6-18)</li>
-                        <li>[ ] Community Garden & Urban Agriculture</li>
-                        <li>[ ] Meal Preparation & Food Distribution</li>
-                        <li>[ ] Event Planning & Logistics</li>
-                        <li>[ ] Administrative & Marketing Support</li><br>
+                        <!--Inside each bullet ponits are nullet points along with Function for user to check a checkbox-->
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> After-School Tutoring & Mentorship (Ages 6-18)</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Community Garden & Urban Agriculture</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Meal Preparation & Food Distribution</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Event Planning & Logistics</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Administrative & Marketing Support</li><br>
                     </ul>
                 </li>
+                <!--Bullet points-->
                 <li>Availability:
                     <ul>
-                        <li>[ ] Weekdays (Mornings)</li>
-                        <li>[ ] Weekdays (Afternoons)</li>
-                        <li>[ ] Weekends</li><br>
+                        <!--Inside each bullet ponits are nullet points along with Function for user to check a checkbox-->
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Weekdays (Mornings)</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Weekdays (Afternoons)</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Weekends</li><br>
                     </ul>
                 </li>
+                <!--Bullet points-->
                 <li>Skills and Specializations:
                     <ul>
-                        <li>[ ] Teaching</li>
-                        <li>[ ] Gardening</li>
-                        <li>[ ] First Aid</li>
+                        <!--Inside each bullet ponits are nullet points along with Function for user to check a checkbox-->
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Teaching</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> Gardening</li>
+                        <li><input type="checkbox" id="Volunteer" name="volunteer"> First Aid</li>
                     </ul>
                 </li>
             </ul>
         </p>
+    <!--A footer for the website along with a bold finish-->    
+    <footer>
+        <b><a href="#">[ Donate Now ]</a>  |  <a href="#">[ Sign Up to Volunteer ]</a></b>
+    </footer>
     </body>
 </html> 
