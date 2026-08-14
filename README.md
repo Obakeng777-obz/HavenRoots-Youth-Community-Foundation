@@ -26,8 +26,9 @@ Key Features and functionality:<br>
 <h2>Part One Details:</h2><br>
 Five pages with links<br>
 <h2>Sitemap:</h2><br>
-<img width="1408" height="768" alt="Sitemap" src="https://github.com/user-attachments/assets/42e47c91-5774-4c71-96b1-2c305b374bc2" />
-
+<img width="1408" height="768" alt="Sitemap" src="https://github.com/user-attachments/assets/42e47c91-5774-4c71-96b1-2c305b374bc2" /><br>
+<h2>ChangeLog</h2><br>
+•	Aug 10: Changed ReadME File on GitHub<br>
 <h2>References:</h2><br>
 Figma, 2026. 53 Unique Website Color Schemes. [online]. Available at: <https://www.figma.com/resource-library/website-color-schemes> [Accessed: 12 August 2026].<br>
 Figma, 2026. Ultimate Guide to Typography in Design. [online]. Available at: <https://www.figma.com/resource-library/typography-in-design> [Accessed: 12 August 2026].<br>
