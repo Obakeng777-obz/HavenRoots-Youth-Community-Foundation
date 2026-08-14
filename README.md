@@ -3,7 +3,10 @@
 <h2>Student Information:</h2><br>
 ST Number: ST10127622<br>
 Name and Surname: Obakeng Motseothata<br>
-Program: DITM0601 Group 1<br><br>
+Program: DITM0601 Group 1<br>
+Module: WED
+Institution: Rosebank International Braamfontein<br>
+
 <h2>Project Overview:</h2><br> 
 First part of the project is complete. Includes five pages that have a navigation and footer. First two pages contains pictures. The contact page contains a map and directions<br><br>
 <h2>Website Goals:</h2><br>
