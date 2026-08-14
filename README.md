@@ -57,7 +57,7 @@ To gain the trust of corporate contributors, increase monthly recurring individu
 •	Aug 10: Changed ReadME File on GitHub<br>
 
 <h2>References:</h2><br>
-Figma, 2026. 53 Unique Website Color Schemes. [online]. Available at: <https://www.figma.com/resource-library/website-color-schemes> [Accessed: 12 August 2026].<br>
-Figma, 2026. Ultimate Guide to Typography in Design. [online]. Available at: <https://www.figma.com/resource-library/typography-in-design> [Accessed: 12 August 2026].<br>
-Oreate. 2026. Oreate (Version 6.0). [Generative AI image tool]. Available at: <https://www.oreateai.com/> [Accessed: 12 August 2026]
-Website Design, 2026. WooCommerce Websites – From R6650 | Open an Online Store. [online]. Available at: <https://www.websitedesign.co.za/woocommerce.html> [Accessed: 12 August 2026].<br>
+Figma, 2026. 53 Unique Website Color Schemes. [online]. Available at: https://www.figma.com/resource-library/website-color-schemes [Accessed: 12 August 2026].<br>
+Figma, 2026. Ultimate Guide to Typography in Design. [online]. Available at: https://www.figma.com/resource-library/typography-in-design [Accessed: 12 August 2026].<br>
+Oreate. 2026. Oreate (Version 6.0). [Generative AI image tool]. Available at: https://www.oreateai.com/ [Accessed: 12 August 2026]
+Website Design, 2026. WooCommerce Websites – From R6650 | Open an Online Store. [online]. Available at: https://www.websitedesign.co.za/woocommerce.html [Accessed: 12 August 2026].<br>
