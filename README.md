@@ -24,7 +24,12 @@ Key Features and functionality:<br>
 •	Weeks 5–6: Cross-device responsiveness testing, form validation, contribution gateway integration, and frontend development.<br>
 •	Week 7: Official platform launch, live payment gateway verification, accessibility testing, and quality control.<br><br>
 <h2>Part One Details:</h2><br>
-Five pages with links<br>
+<ul>
+  <li>Private GiTHub</li>
+  <li>Wireframes for all</li>
+  <li>Visual for setup</li>
+  <li>ReadMe file in an academic file</li>
+</ul>
 <h2>Sitemap:</h2><br>
 <img width="1408" height="768" alt="Sitemap" src="https://github.com/user-attachments/assets/42e47c91-5774-4c71-96b1-2c305b374bc2" /><br>
 <h2>ChangeLog</h2><br>
