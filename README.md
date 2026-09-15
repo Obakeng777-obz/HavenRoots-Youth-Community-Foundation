@@ -61,7 +61,36 @@ To gain the trust of corporate contributors, increase monthly recurring individu
 
 <h2>ChangeLog</h2><br>
 <ul>
-  <li>Aug 10: Changed ReadME File on GitHub<br></li>
+  <li>Added a sitemap section and a submit/reset button to the contact form. Updated image size and added copyright information. Made sure sitemap worked along with a submit form button.</li>
+  <li>Added a sitemap section, submit and reset buttons, and copyright information to the enquiry form. Made sure the work and added buttons.</li>
+  <li>Updated the voices.html file to include a sitemap, adjusted image dimensions, and added submit buttons for email and donation. Made sure links and added submit button for email.</li>
+  <li>Updated the about.html file to include a sitemap, copyright information, and improved button elements. Added a sitemap links along with comment.</li>
+  <li>Updated the index.html file to include a sitemap, adjusted image paths, and added a button for enquiries. Also included copyright information and improved the structure of the footer. Added a button link for call         to action button. added footer copyright as well.</li>
+  <li>Update ReadMe.md file.</li>
+  <li>Update ReadMe.md file.</li>
+  <li>Updated formatting for project details, objectives, key features, timelines, and changelog in README.</li>
+  <li>Updated references to remove HTML character entities and ensure proper formatting.</li>
+  <li>Corrected the formatting of the Oreate reference link in README.md.</li>
+  <li>Added references for images.</li>
+  <li>Updated project details, including module name and added project overview, goals, objectives, key features, timelines, and references.</li>
+  <li>Added module and institution information to the README.</li>
+  <li>Update ReadMe.md file.</li>
+  <li>Added ChangeLog section and updated sitemap image.</li>
+  <li>Updated the README to reflect project details, goals, objectives, key features, timelines, and references. Made it readable.</li>
+  <li>Removed Sitemap code. Was on wrong path.</li>
+  <li>Added student information along with technical requirements to operate website.</li>
+  <li>Updated contact.html to include logo and footer. Added code to show actual spot on google maps. Also added function to accept input text.</li>
+  <li>Updated the enquiry form to include input fields and checkboxes for user interaction. Added a logo image and improved navigation links. Included comments for better understanding and a footer.</li>
+  <li>Added comments to HTML elements for better understanding. Changed the navigation and logo to work.</li>
+  <li>Updated the about.html file to include images and improve navigation. Change the navigation to include the fifth page. Added comments to assist. Added footer to code.</li>
+  <li>Making it so it starts on the first line.</li>
+  <li>Updated the HTML structure, added a footer, added a logo, and improved navigation links. Included a sitemap and images in a collection style for the home page. Added comments where required to understand code             better.</li>
+  <li>Added files via upload.</li>
+  <li>Changing starting Directory.</li>
+  <li>Fix formatting of project title in project.</li>
+  <li>Added references.</li>
+  <li>Added project details, goals, objectives, key features, timelines, and references to the README.</li>
+  <li>Added a footer at the bottom.</li>
 </ul>
 
 <h2>References:</h2><br>
