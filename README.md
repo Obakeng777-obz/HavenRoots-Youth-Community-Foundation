@@ -92,6 +92,22 @@ To gain the trust of corporate contributors, increase monthly recurring individu
   <li>Updated the voices.html file to include a sitemap, adjusted image dimensions, and added submit buttons for email and donation. Made sure links and added submit button for email.</li>
   <li>Added a sitemap section, submit and reset buttons, and copyright information to the enquiry form. Made sure the work and added buttons.</li>
   <li>Added a sitemap section and a submit/reset button to the contact form. Updated image size and added copyright information. Made sure sitemap worked along with a submit form button.</li>
+  <li>Updated ChangeLog with detailed changes to various HTML files and README formatting.</li>
+  <li>Updated project title and added new image references.</li>
+  <li>Update image references in README.md</li>
+  <li>Update section headers and add new CSS page item</li>
+  <li>Add files via upload</li>
+  <li>Delete ST10127622_WEDE5020_POE_PART_ONE/Root/CSS directory</li>
+  <li>Delete ST10127622_WEDE5020_POE_PART_ONE/Root/Images directory</li>
+  <li>Add files via upload</li>
+  <li>Delete ST10127622_WEDE5020_POE_PART_TWO/Root directory</li>
+  <li>Header & Navigation: Displays Logo1.jpg in the header section alongside main navigation links pointing to about.html, contact.html, enquiry.html, and voices.html. Hero Carousel / Gallery: Features three full-width hero         images (HomePage1.jpg, HomePage2.jpg, HomePage3.jpg) set up inside a hero slider container. Main Content Area: Structured into introductory feature blocks highlighting core offerings, leading into call-to-action buttons for       inquiry and contact. Then added functions for pop-ups and a scroll up.</li>
+  <li>Company Profile: Features structured paragraphs covering mission, vision, and background story. Media Layout: Includes two dedicated image sections embedding AboutUs1.jpg and AboutUs2.jpg to showcase team/brand imagery         alongside textual descriptions. Also added functions for the footer and subscribing in the footer.</li>
+  <li>Voices page: Testimonial Grid: Uses container elements (&lt;article&gt; / &lt;div&gt;) to group individual customer quotes, client names, and review ratings into cardsQa.</li>
+  <li>Specific Query Form: Built with structured form elements tailored for service inquiries, including dropdown select menus (&lt;select&gt;) for service categories and text inputs for dynamic details. Form Action: Set up with     standard button elements to process user entries. Submission functions and reset functions.</li>
+  <li>Contact Details: Contains standard contact information layout (address, email, operating hours). Interactive Form: Contains an HTML form with &lt;input type="text"&gt; for Name, &lt;input type="email"&gt; for Email,             &lt;input type="tel"&gt; for Phone, and a &lt;textarea&gt; for Message submission.</li>
+  <li>Added Images and CSS folders</li>
+  <li>Updated the README to include project details, goals, objectives, key features, timelines, and references. Removed outdated entries and improved formatting for clarity.</li>
 </ul>
 
 <h2>References:</h2><br>
