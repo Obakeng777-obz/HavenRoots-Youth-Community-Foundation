@@ -49,11 +49,12 @@ To gain the trust of corporate contributors, increase monthly recurring individu
   <li><b>Week 7:</b> Official platform launch, live payment gateway verification, accessibility testing, and quality control.</li>
 </ul>
 
-<h2>Part One Details:</h2><br>
+<h2>Part One and Two Details:</h2><br>
 <ul>
   <li>Private GiTHub</li>
   <li>Wireframes for all</li>
   <li>Visual for setup</li>
+  <li>New CSS page</li>
   <li>ReadMe file in an academic file</li>
 </ul>
 <h2>Sitemap:</h2><br>
