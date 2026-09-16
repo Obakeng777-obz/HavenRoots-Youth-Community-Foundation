@@ -108,6 +108,7 @@ To gain the trust of corporate contributors, increase monthly recurring individu
   <li>Contact Details: Contains standard contact information layout (address, email, operating hours). Interactive Form: Contains an HTML form with &lt;input type="text"&gt; for Name, &lt;input type="email"&gt; for Email,             &lt;input type="tel"&gt; for Phone, and a &lt;textarea&gt; for Message submission.</li>
   <li>Added Images and CSS folders</li>
   <li>Updated the README to include project details, goals, objectives, key features, timelines, and references. Removed outdated entries and improved formatting for clarity.</li>
+  <li>Updated responsiveness for the file while also fixing all feedback</li>
 </ul>
 
 <h2>References:</h2><br>
