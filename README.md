@@ -1,4 +1,4 @@
-# WEDE5020-PART-ONE
+# WEDE5020-PART-TWO
 <h1>Project Title:</h1> HavenRoots Youth & Community Foundation Website<br>
 
 <h2>Student Information:</h2>
@@ -98,3 +98,9 @@ Figma, 2026. 53 Unique Website Color Schemes. [online]. Available at: https://ww
 Figma, 2026. Ultimate Guide to Typography in Design. [online]. Available at: https://www.figma.com/resource-library/typography-in-design [Accessed: 12 August 2026].<br>
 Oreate. 2026. Oreate (Version 6.0). [Generative AI image tool]. Available at: https://www.oreateai.com/ [Accessed: 12 August 2026].<br>
 Website Design, 2026. WooCommerce Websites – From R6650 | Open an Online Store. [online]. Available at: https://www.websitedesign.co.za/woocommerce.html [Accessed: 12 August 2026].<br>
+The Good Earth Garden. 2026. Solitary large oak tree in a sunny green meadow. [Online image]. Available at: <https://thegoodearthgarden.com/plant-species/oak/> [Accessed 15 September 2026].<br>
+Unsplash. 2026. Hands holding a growing green seedling in rich soil. [Online image]. Available at: <https://images.unsplash.com/photo-1416879595882-3373a0480b5b> [Accessed 15 September 2026].<br>
+Unsplash. 2026. Lush green tree canopy looking up into sunlight. [Online image]. Available at: <https://images.unsplash.com/photo-1542601906990-b4d3fb778b09> [Accessed 15 September 2026].<br>
+Unsplash. 2026. Open and bright indoor office gathering space. [Online image]. Available at: <https://images.unsplash.com/photo-1521737711867-e3b97375f902> [Accessed 15 September 2026].<br>
+Unsplash. 2026. Diverse group of young people standing together outdoors. [Online image]. Available at: <https://images.unsplash.com/photo-1529156069898-49953e39b3ac> [Accessed 15 September 2026].
+
