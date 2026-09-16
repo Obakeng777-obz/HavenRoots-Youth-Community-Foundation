@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!--Sets the document language to english-->
+<html lang="en">
+    <!--The Title of the page thats going to show on the page bar-->
+    <head>
+        <title>Contact Us</title>
+        <!--The link of the page to the css style sheet-->
+        <link rel="stylesheet" href="../CSS/style.css">
+        <style>
+            /* Internal styles unique to Contact Page */
+
+            /*The Styling of the location in the page*/
+            iframe {
+                border: 5px solid #e74c3c;
+                border-radius: 10px;
+            }
+
+            /*The Styling of the banner in the page*/
+            .banner {
+                position: relative;
+                margin-top: 0;
+                background: url('../Images/contact us.jpg') no-repeat center center;
+                background-size: cover;
+                color: #fff;
+                text-align: center;
+                padding: 130px 20px 80px;
+            }
+
+            /* Overlay to fade background */
+            .banner::before {
+                content: "";
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: rgba(0,0,0,0.5); /* dimmer overlay */
+                z-index: 1;
+            }
+
+            /* Content above overlay */
+            .banner-content {
+                position: relative;
+                z-index: 2;
+            }
+
+            /* Logo styling */
+            .banner-logo {
+                width: 200px;   /* larger size */
+                height: 200px;
+                border: 5px solid #16a085;
+                border-radius: 50%; /* keeps circular shape */
+                margin-bottom: 15px;
+                background: #fff;
+            }
+
+            /* Headings */
+            .banner h1, .banner h3 {
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+                margin-bottom: 20px;
+            }
+
+            /* Text wrap effect */
+            .banner p {
+                max-width: 800px;
+                margin: auto;
+                font-size: 1.2rem;
+                line-height: 1.6;
+                background: rgba(0,0,0,0.5); /* semi-transparent box */
+                padding: 20px;
+                border-radius: 8px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+            <!-- This is the styling in the header. Logo + heading/tagline on the left and search + donate button on the right -->
+                <div class="header-top">
+                    <div class="nav-left">
+                        <img src="../Images/Logo1.jpg" alt="Logo">
+                        <div class="nav-left-text">
+                            <h1>Contact Us</h1>
+                            <p>Deep Roots, Bright Futures.</p>
+                        </div>
+                    </div>
+                    <div class="nav-right">
+                        <input type="text" placeholder="Search...">
+                        <a href="enquiry.html" class="btn donate-btn">Donate</a>
+                    </div>
+                </div>
+
+                <nav>
+                    <!-- Hamburger button visible on mobile -->
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                        ☰
+                    </button>
+                </nav>
+
+            <!-- Slide-out menu -->
+                <div class="mobile-menu" id="mobileMenu">
+                    <button class="close-btn" id="closeBtn">✕</button>
+                    <a href="../index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="voices.html">Voices of HavenRoots</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="#">Contact Us</a>
+                </div>
+        </header>
+
+            <nav>
+                <div class="nav-links">
+                    <!--This is the code for the navigation bar for all the pages-->
+                    <a href="../index.html">Home Page</a>
+                    <a href="about.html">About Us</a>
+                    <a href="voices.html">Voices of HavenRoots</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="#" class="active" aria-current="page">Contact Us</a>
+                </div>
+            </nav>
+
+        <main>
+            <section>
+                <!--This the code for the banner. It includes division of sections of the banner-->
+                <div class="banner">
+                    <div class="banner-overlay"></div>
+                        <div class="banner-content">
+                            <img src="../Images/Logo1.jpg" alt="HavenRoots Logo" class="banner-logo">
+                            <h1  style="color: white;">Get in touch</h1>
+                            <h2  style="color: white;">How we are reached</h2>
+
+                        <div class="banner-layout">
+                            <!-- Left side text -->
+                            <div class="banner-text">
+                                <!--The First paragraph of the page-->
+                                <p>
+                                    We would love to hear from you! Whether you have questions about our youth programs, want to drop off physical donations, or need assistance,<br>
+                                    reach out to our team using the form or contact details below. 
+                                </p>
+                            </div>
+
+                            <!-- Divider -->
+                            <div class="banner-divider"></div>
+
+                            <!-- Right side buttons -->
+                            <div class="banner-buttons">
+                                 <a href="enquiry.html"><button type="button">Get Involved</button></a> <a href="about.html"><button type="button">Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><br>
+
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--The first heading of the page in heading one style-->
+                <h1>
+                    <span class="heading-One-part1">Get</span>
+                    <span class="heading-One-part2">in Touch</span>
+                </h1>
+                
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                <!--Bullet points that each have a bold before the colon-->
+                    <ul style="text-align: left;">
+                        <li><b>Main Office & Youth Hub:</b><br>
+                        124 Hope Street, Central Community Precinct, Johannesburg, 2001
+                        </li><br>
+
+                        <li><b>Operating Hours:</b><br>
+                        Monday – Friday: 08:00 – 17:00<br>
+                        Saturday: 09:00 – 13:00 (Youth Programs & Community Garden)
+                        Sunday: Closed
+                        </li><br>
+
+                        <li><b>Phone: </b><a href="tel:+27117820122">+27 11 782 0122</a> </li><br>
+                        <li><b>Email Direct:</b>
+                            <ul>
+                                <!--Bullet points that each have a bold before the colon-->
+                                <li>General Inquiries: <a href="mailto:info@havenroots.com">info@havenroots.com</a></li>
+                                <li>Program and Volunteer Support: <a href="mailto:community@havenroots.com">community@havenroots.com</a></li>
+                                <li>Partnerships and Corporate Giving: <a href="mailto:donations@havenroots.com">donations@havenroots.com</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--The Third heading of the page in heading two style-->
+                <h2>Contact and Message Form</h2>
+                
+                <!--The is the from to contact-->
+                <form action="#" method="post" style="text-align: left;" onsubmit="message(); return false;">
+                    <!--This is a divider so the text can be within a quote block-->
+                    <div class="quote-block">
+                        <p>
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </p>
+
+                        <p>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </p>
+
+                        <p>
+                            <label for="contactMessage">Reason for Contacting Us:</label>
+                                <textarea
+                                    id="contactMessage"
+                                    name="Message"
+                                    rows="8"
+                                    cols="40"
+                                    required>
+                                </textarea>
+                        </p>
+                        
+                        </div>
+
+                        <p style="text-align: center;">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </p>
+                </form>
+            </section><br>
+
+            <section>
+                <!--The Fourth heading of the page in heading three style-->
+                <h2 style="text-align: center; margin: 0 auto; max-width: 1000px;">Location and Directions</h2>
+                <!--Google maps direction to business-->
+                <iframe style="margin-left: auto; margin-right: auto; border:4px solid #16a085" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6019.349725753265!2d27.864245982470106!3d-26.225070461536873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a13afff00e71%3A0xc2d4949161f9d6fa!2sKopanong%20Hall!5e0!3m2!1sen!2sza!4v1786432803865!5m2!1sen!2sza"></iframe>
+                
+                <br>
+            </section>
+
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                <!--The Second paragraph of the page-->
+                    <p>
+                        <!--Bold line before colon and italics for rest of the-->
+                        <b>Note on Site Visits:</b><i> Visitors and donors are welcome to visit our urban garden and administrative<br>
+                        office during standard operating hours. For program site tours or group visits, please schedule an<br>
+                        appointment in advance via email.</i>
+                    </p>
+                </div>
+            </section><br>
+        </main>
+
+    <!--A footer for the website along with a bold finish-->
+    <footer>
+        <!--The divder that seperates the content into a seperate column-->
+        <div class="footer-columns">
+            <div class="footer-column">
+                <img src="../Images/Logo1.jpg" alt="Footer logo">
+                <h2>HavenRoots Youth&amp; Community Foundation</h2>
+            </div>
+
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Quick Links:</h3>
+                    <a href="../index.html">Home</a><br>
+                    <a href="about.html">About Us</a><br>
+                    <a href="voices.html">Voices of HavenRoots</a><br>
+                    <a href="enquiry.html">Enquiry</a><br><br>
+            </div>
+            
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                    <b>Phone: </b><a href="tel:+27117820122">+27 11 782 0122</a><br>
+                    <b>Email Direct: </b><a href="mailto:info@havenroots.com">info@havenroots.com</a><br>
+                    <b>Address: </b>Dobsonville, Johannesburg, 1363<br><br>
+            </div>
+
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Keep in Touch</h3>
+                <!--This the small form that lets users subscribe to the subscription quickly-->
+                <form action="#" method="post"  onsubmit="subscribe(); return false;">
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                    </p>
+
+                    <p>
+                        <button type="submit">Subscribe</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+            <hr>
+
+            <!--Copyright, Trademark, And Year of registration-->
+            <p>
+                Copyright: 2021 HavenRoots. All rights Reserved<br>
+                Trademark: HavenRoots(TM)<br>
+                Year of registration: 2021
+            </p>
+        </div>
+    </footer>
+    
+        <!--The button on the bottom right of the page that sends you back to the top-->
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                width="34" height="34" fill="none" stroke="black" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 15 12 9 18 15" />
+            </svg>
+        </button>
+
+        <!--
+        References:
+        Unsplash. 2026. Open and bright indoor office gathering space. [Online image]. Available at: <https://images.unsplash.com/photo-1521737711867-e3b97375f902> [Accessed 15 September 2026].
+        -->
+    </body>
+</html>
+
+<script>
+    //function to dsiplay pop up message to say they joined
+    function subscribe() {
+        alert("We at HavenRoots Welcome You");
+    }
+
+    //function to dsiplay pop up message to say we will mesage them
+    function message() {
+        alert("We'll get back to you soon ;)");
+    }
+
+    // Function of button that sends the user back to the top of page
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    const btn = document.getElementById("backToTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+    }
+
+    // Function of scroll back up when button is pressed.
+    function topFunction() {
+    const scrollDuration = 600; 
+    const scrollStep = -window.scrollY / (scrollDuration / 15);
+
+    const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+        } else {
+        clearInterval(scrollInterval);
+        }
+    }, 15);
+    }
+
+    // Function of hamburger button that opens navigation that is hidden and closes it
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const closeBtn = document.getElementById("closeBtn");
+
+    hamburgerBtn.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+    });
+</script>

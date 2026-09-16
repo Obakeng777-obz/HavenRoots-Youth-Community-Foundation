@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!--Sets the document language to english-->
+<html lang="en">
+    <!--The Title of the page thats going to show on the page bar-->
+    <head>
+        <title>HavenRoots &amp; Youth Foundation</title>
+        <!--The link of the page to the css style sheet-->
+        <link rel="stylesheet" href="CSS/style.css">
+        <style>
+            /* Internal styles unique to Home Page */
+
+            /*The Styling of the images in the Home Page*/
+            .Home-page img {
+            border: 3px solid #1abc9c;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+            
+            /*This is the styling for the banner in the page*/
+            .banner {
+                position: relative;
+                margin-top: 0;
+                background: url('Images/Tree.jpg') no-repeat center center;
+                background-size: cover;
+                color: #fff;
+                text-align: center;
+                padding: 130px 20px 80px;
+            }
+
+            /* The Overlay of the banner to fade background */
+            .banner::before {
+                content: "";
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: rgba(0,0,0,0.5); 
+                z-index: 1;
+            }
+
+            /* Content above overlay */
+            .banner-content {
+                position: relative;
+                z-index: 2;
+            }
+
+            /* Logo styling inside the banner */
+            .banner-logo {
+                width: 200px;   
+                height: 200px;
+                border: 5px solid #16a085;
+                border-radius: 50%; 
+                margin-bottom: 15px;
+                background: #fff;
+            }
+
+            /* Headings */
+            .banner h1, .banner h3 {
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+                margin-bottom: 20px;
+            }
+
+            /* Text wrap effect */
+            .banner p {
+                max-width: 800px;
+                margin: auto;
+                font-size: 1.2rem;
+                line-height: 1.6;
+                background: rgba(0,0,0,0.5); 
+                padding: 20px;
+                border-radius: 8px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!--This is the everything inside the header-->
+        <header>
+            <!-- This is the styling in the header. Logo + heading/tagline on the left and search + donate button on the right -->
+                <div class="header-top">
+                    <div class="nav-left">
+                        <img src="Images/Logo1.jpg" alt="Logo">
+                        <div class="nav-left-text">
+                            <h1>HavenRoots & Youth Foundation</h1>
+                            <p>Rooted in Community, Growing for Tomorrow.</p>
+                        </div>
+                    </div>
+                    <div class="nav-right">
+                        <input type="text" placeholder="Search...">
+                        <a href="Assets/enquiry.html" class="btn donate-btn">Donate</a>
+                    </div>
+                </div>
+
+                <nav>
+                    <!-- Hamburger button visible on mobile -->
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                        ☰
+                    </button>
+                </nav>
+
+                <!-- Slide-out menu -->
+                <div class="mobile-menu" id="mobileMenu">
+                    <button class="close-btn" id="closeBtn">✕</button>
+                    <a href="index.html">Home</a>
+                    <a href="Assets/about.html">About Us</a>
+                    <a href="Assets/voices.html">Voices of HavenRoots</a>
+                    <a href="Assets/enquiry.html">Enquiry</a>
+                    <a href="Assets/contact.html">Contact Us</a>
+                </div>
+        </header>
+
+                <nav>
+                    <div class="nav-links">
+                        <!--This is the code for the navigation bar for all the pages-->
+                        <a href="#" class="active" aria-current="page">Home Page</a>
+                        <a href="Assets/about.html">About Us</a>
+                        <a href="Assets/voices.html">Voices of HavenRoots</a>
+                        <a href="Assets/enquiry.html">Enquiry</a>
+                        <a href="Assets/contact.html">Contact Us</a>
+                    </div>
+                </nav>
+
+        <main>
+            <section>
+                <!--This the code for the banner. It includes division of sections of the banner-->
+                <div class="banner">
+                    <div class="banner-overlay"></div>
+                        <div class="banner-content">
+                            <img src="Images/Logo1.jpg" alt="HavenRoots Logo" class="banner-logo">
+                            <h1  style="color: white;">HavenRoots Youth &amp;</h1>
+                            <h1  style="color: white;">Community Foundation</h1>
+
+                        <div class="banner-layout">
+                            <!-- Left side text of the banner -->
+                            <div class="banner-text">
+                                <p>
+                                    HavenRoots didn't just bring us seeds, they gave our youth a reason to gather, learn, and take pride in transforming
+                                    our neighborhood lot into something beautiful and productive.
+                                </p>
+                            </div>
+
+                            <!-- Divider  -->
+                            <div class="banner-divider"></div>
+
+                            <!-- Right side buttons of the banner -->
+                            <div class="banner-buttons">
+                                <a href="Assets/about.html"><button type="button">Learn More</button></a> <a href="Assets/contact.html"><button type="button">Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><br>
+
+            <!--This section styling aligns the text to the center of the page-->
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--The first heading of the page in heading one style-->
+                <h1 style="text-align: left;">
+                    <!--The heading is spilt in to two to be styled speratly-->
+                    <span class="heading-One-part1">We are the</span> 
+                    <span class="heading-One-part2">Seeds of the Future</span>
+                </h1>
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block"> 
+                <!--This aligns the text to the left-->
+                <p style="text-align: left;">
+                    <!--The first paragraph of the page with line breaks-->
+                    At HavenRoots Youth & Community Foundation, we believe that every child deserves a safe place to learn, nutritious meals<br>
+                    to grow, and the mentorship needed to build a brighter future. Founded in 2021 as a neighborhood feeding initiative, HavenRoots<br> 
+                    has grown into a community pillar providing after-school tutoring, youth mentorship, sustainable community<br>
+                    gardens, and emergency food relief to underserved families. We don't just provide temporary assistance. We plant the seeds<br>
+                    for long-term independence and resilience.<br><br>
+                </p>
+                </div>
+            </section>
+            
+            <!--This section styling aligns the text to the center of the page-->
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <h2 style="text-align: left;">
+                    <span class="heading-Two-part1">Our</span> 
+                    <span class="heading-One-part2">Vision</span>
+                </h2>
+
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                    <p style="text-align: left;">
+                        <!--The second paragraph of the page with line breaks-->
+                        To cultivate a resilient world where every community possesses the ecological harmony, food security, and collective voice<br>
+                        needed to thrive independently. HavenRoots envisions self-sustaining neighborhoods where urban and rural spaces are transformed<br>
+                        into green hubs of opportunity, restoring both the natural environment and local economies.
+                    </p>
+                </div>
+            </section>
+            
+            <!--This section styling aligns the text to the center of the page-->
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <h2 style="text-align: left;">
+                    <span class="heading-Two-part1">Our</span> 
+                    <span class="heading-One-part2">Mission</span>
+                </h2>
+
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                    <p style="text-align: left;">
+                        <!--The third paragraph of the page with line breaks-->
+                        To empower communities through ecological stewardship, youth skill-building, and grassroots storytelling by providing the tools,<br>
+                        seeds, and education required to build sustainable, self-reliant futures. HavenRoots achieves this mission by partnering<br>
+                        directly with local leaders, restoring neglected land, creating green employment pathways for youth, and amplifying community<br>
+                        voices to inspire lasting environmental action.
+                    </p>
+                </div>
+            </section>
+
+            <!--This section styling aligns the text to the center of the page-->
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <h2 style="text-align: left;">
+                    <span class="heading-Two-part1">Our</span> 
+                    <span class="heading-One-part2">Goals</span>
+                </h2>
+
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                    <!--Heading in heading three style-->
+                    <h3 style="text-align: left;">Environmental Stewardship & Reforestation</h3><br>
+                        <p style="text-align: left;">
+                        <!--The bullet points-->
+                        <ul style="text-align: left;">
+                            <li>Plant and maintain over 25,000 indigenous trees across urban heat corridors by 2028.</li>
+                            <li>Reclaim underutilized municipal lots to build biodiverse eco-hubs and native nurseries.</li>
+                            <li>Deliver hands-on conservation and permaculture workshops to schools and residents.</li>
+                        </ul><br>
+                    </p>
+
+                    <!--Heading in heading three style-->
+                    <h3 style="text-align: left;">Community Empowerment & Food Security</h3><br>
+                    <p style="text-align: left;">
+                    <!--The bullet points-->
+                        <ul style="text-align: left;">
+                            <li>Establish 50+ organic community vegetable gardens to address local food insecurity.</li>
+                            <li>Train young adults in sustainable agriculture, nursery management, and eco-entrepreneurship.</li>
+                            <li>Provide seed grants, tools, and irrigation equipment to qualified grassroots groups.</li>
+                        </ul><br>
+                    </p>
+
+                    <!--Heading in heading three style-->
+                    <h3 style="text-align: left;">Social Cohesion & Narrative Amplification</h3><br>
+                    <p style="text-align: left;">
+                    <!--The bullet points-->
+                        <ul style="text-align: left;">
+                            <li>Publish 200+ community resilience stories through the Voices of HavenRoots platform.</li>
+                            <li>Form strategic partnerships with schools, municipalities, and local eco-organizations.</li>
+                            <li>Host quarterly community planting days and workshops to build shared neighborhood pride.</li>
+                        </ul><br>
+                    </p>
+                </div>
+            </section>
+
+            <!--This section styling aligns the text to the center of the page-->
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <h2 style="text-align: left;">
+                    <span class="heading-Two-part1">Visuals</span> 
+                    <span class="heading-One-part2" style="text-decoration: underline;">of our Progams:</span>
+                </h2><br>
+                
+                <!--This is the collection of pictures--> 
+                <div class="Home-page container">
+                    <!--These are the three pictures-->
+                    <img src="Images/HomePage1.jpg" alt="The class picture " width="300" height="300" style="border:4px solid #16a085;">
+                    <img src="Images/HomePage2.jpg" alt="The Garden picture" width="300" height="300" style="border:4px solid #16a085;">
+                    <img src="Images/HomePage3.jpg" alt="The Charity picture" width="300" height="300" style="border:4px solid #16a085;">
+                </div>
+            </section>
+
+            <!--This section styling aligns the text to the center of the page-->
+            <section style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                    <!--This is the second heading in heading 2 style and underlined-->
+                    <h2 style="color:#34495e; text-align: left;"><u>Be The Root of Positive Change Today</u></h2><br>
+                    
+                    <!--The Fourth paragraph of the page with a line break-->
+                    <p style="text-align: left;">
+                        No child should have to study on an empty stomach or face life's challenges without guidance.<br>
+                        <!--This line is in bold-->
+                        <b>Your support transforms lives right in your community.</b><br><br>
+                    </p>
+                    <!--Bullet points that include a bold action-->
+                    <ul style="text-align: left;">
+                        <li><b>R100</b> provides a week of nutritious meals and after-school support for a child.</li><br>
+                        <li><b>Volunteers</b> lend their skills to tutor students or work in our urban garden project.</li><br>
+                    </ul>
+                    <!--This line is in bold along with line break-->
+                    <p style="text-align: left;">
+                        <b>Join the HavenRoots family today because strong roots build strong communities.</b><br><br>
+                    </p>
+                </div>
+
+                <!--The buttons transfer you to the enquiry page and contact page-->
+                <a href="Assets/enquiry.html"><button type="button"> Donate Now </button></a> <a href="Assets/contact.html"><button type="button"> Contact Us </button></a>
+    
+            </section><br>
+        </main>
+
+    <!--A footer for the website along with a bold finish-->
+    <footer>
+        <!--The divder that seperates the content into a seperate column-->
+        <div class="footer-columns">
+            <div class="footer-column">
+                <img src="Images/Logo1.jpg" alt="Footer logo">
+                <h2>HavenRoots Youth&amp; Community Foundation</h2>
+            </div>
+
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Quick Links:</h3>
+                    <a href="Assets/about.html">About Us</a><br>
+                    <a href="Assets/voices.html">Voices of HavenRoots</a><br>
+                    <a href="Assets/enquiry.html">Enquiry</a><br>
+                    <a href="Assets/contact.html">Contact Us</a><br><br>
+            </div>
+            
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                    <b>Phone: </b><a href="tel:+27117820122">+27 11 782 0122</a><br>
+                    <b>Email Direct: </b><a href="mailto:info@havenroots.com">info@havenroots.com</a><br>
+                    <b>Address: </b>Dobsonville, Johannesburg, 1363<br><br>
+            </div>
+
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Keep in Touch</h3>
+                <!--This the small form that lets users subscribe to the subscription quickly-->
+                <form action="#" method="post"  onsubmit="subscribe(); return false;">
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                    </p>
+
+                    <p>
+                        <button type="submit">Subscribe</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+            <hr>
+
+            <!--Copyright, Trademark, And Year of registration-->
+            <p>
+                Copyright: 2021 HavenRoots. All rights Reserved<br>
+                Trademark: HavenRoots(TM)<br>
+                Year of registration: 2021
+            </p>
+        </div>
+    </footer>
+
+        <!--The button on the bottom right of the page that sends you back to the top-->
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                width="34" height="34" fill="none" stroke="black" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 15 12 9 18 15" />
+            </svg>
+        </button>
+
+    <!--
+    References:
+    Oreate. 2026. Oreate (Version 6.0). [Generative AI image tool]. Available at: https://www.oreateai.com/ [Accessed: 12 August 2026]
+
+    The Good Earth Garden. 2026. Solitary large oak tree in a sunny green meadow. [Online image]. Available at: <https://thegoodearthgarden.com/plant-species/oak/> [Accessed 15 September 2026].
+    -->
+    </body>
+</html>
+
+<script>
+    //function to dsiplay pop up message to say they joined
+    function subscribe() {
+        alert("We at HavenRoots Welcome You");
+    }
+
+    // Function of button that sends the user back to the top of page
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    const btn = document.getElementById("backToTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+    }
+
+    // Function of scroll back up when button is pressed.
+    function topFunction() {
+    const scrollDuration = 600; 
+    const scrollStep = -window.scrollY / (scrollDuration / 15);
+
+    const scrollInterval = setInterval(() => {
+        if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+        } else {
+        clearInterval(scrollInterval);
+        }
+    }, 15);
+    }
+
+    // Function of hamburger button that opens navigation that is hidden and closes it
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const closeBtn = document.getElementById("closeBtn");
+
+    hamburgerBtn.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+    });
+</script>
