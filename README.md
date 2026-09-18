@@ -61,12 +61,12 @@ To gain the trust of corporate contributors, increase monthly recurring individu
 <img width="1408" height="768" alt="Sitemap" src="https://github.com/user-attachments/assets/42e47c91-5774-4c71-96b1-2c305b374bc2" /><br>
 
 <h2>ChangeLog</h2><br>
-August 12:
+August 11:<br>
 <ul>
   <li>Added a footer at the bottom.</li>
   <li>Added project details, goals, objectives, key features, timelines, and references to the README.</li>
 </ul>
-  August 13:
+  August 12:<br>
 <ul>
   <li>Added references.</li>
   <li>Fix formatting of project title in project.</li>
@@ -80,6 +80,9 @@ August 12:
   <li>Updated contact.html to include logo and footer. Added code to show actual spot on google maps. Also added function to accept input text.</li>
   <li>Added student information along with technical requirements to operate website.</li>
   <li>Removed Sitemap code. Was on wrong path.</li>
+</ul>
+August 14:<br>
+<ul>
   <li>Updated the README to reflect project details, goals, objectives, key features, timelines, and references. Made it readable.</li>
   <li>Added ChangeLog section and updated sitemap image.</li>
   <li>Update ReadMe.md file.</li>
@@ -96,6 +99,9 @@ August 12:
   <li>Updated the voices.html file to include a sitemap, adjusted image dimensions, and added submit buttons for email and donation. Made sure links and added submit button for email.</li>
   <li>Added a sitemap section, submit and reset buttons, and copyright information to the enquiry form. Made sure the work and added buttons.</li>
   <li>Added a sitemap section and a submit/reset button to the contact form. Updated image size and added copyright information. Made sure sitemap worked along with a submit form button.</li>
+</ul>
+
+<ul>
   <li>Updated ChangeLog with detailed changes to various HTML files and README formatting.</li>
   <li>Updated project title and added new image references.</li>
   <li>Update image references in README.md</li>
