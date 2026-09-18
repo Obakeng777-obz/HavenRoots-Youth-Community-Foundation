@@ -61,13 +61,13 @@ To gain the trust of corporate contributors, increase monthly recurring individu
 <img width="1408" height="768" alt="Sitemap" src="https://github.com/user-attachments/assets/42e47c91-5774-4c71-96b1-2c305b374bc2" /><br>
 
 <h2>ChangeLog</h2><br>
+August 12:
 <ul>
-  <li>August 12:</li>
   <li>Added a footer at the bottom.</li>
   <li>Added project details, goals, objectives, key features, timelines, and references to the README.</li>
 </ul>
+  August 13:
 <ul>
-  <li>August 13:</li>
   <li>Added references.</li>
   <li>Fix formatting of project title in project.</li>
   <li>Changing starting Directory.</li>
