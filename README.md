@@ -62,13 +62,17 @@ To gain the trust of corporate contributors, increase monthly recurring individu
 
 <h2>ChangeLog</h2><br>
 <ul>
+  <li>August 12:</li>
   <li>Added a footer at the bottom.</li>
   <li>Added project details, goals, objectives, key features, timelines, and references to the README.</li>
+</ul>
+<ul>
+  <li>August 13:</li>
   <li>Added references.</li>
   <li>Fix formatting of project title in project.</li>
   <li>Changing starting Directory.</li>
   <li>Added files via upload.</li>
-  <li>Updated the HTML structure, added a footer, added a logo, and improved navigation links. Included a sitemap and images in a collection style for the home page. Added comments where required to understand code better.</li>
+  <li>Updated the HTML structure, added a footer, added a logo, and improved navigation links. Included a sitemap and images in a collection style for the home page. Added comments where required to understand code         better.</li>
   <li>Making it so it starts on the first line.</li>
   <li>Updated the about.html file to include images and improve navigation. Change the navigation to include the fifth page. Added comments to assist. Added footer to code.</li>
   <li>Added comments to HTML elements for better understanding. Changed the navigation and logo to work.</li>
@@ -87,7 +91,7 @@ To gain the trust of corporate contributors, increase monthly recurring individu
   <li>Updated formatting for project details, objectives, key features, timelines, and changelog in README.</li>
   <li>Update ReadMe.md file.</li>
   <li>Update ReadMe.md file.</li>
-  <li>Updated the index.html file to include a sitemap, adjusted image paths, and added a button for enquiries. Also included copyright information and improved the structure of the footer. Added a button link for call to action     button. added footer copyright as well.</li>
+  <li>Updated the index.html file to include a sitemap, adjusted image paths, and added a button for enquiries. Also included copyright information and improved the structure of the footer. Added a button link for call     to action     button. added footer copyright as well.</li>
   <li>Updated the about.html file to include a sitemap, copyright information, and improved button elements. Added a sitemap links along with comment.</li>
   <li>Updated the voices.html file to include a sitemap, adjusted image dimensions, and added submit buttons for email and donation. Made sure links and added submit button for email.</li>
   <li>Added a sitemap section, submit and reset buttons, and copyright information to the enquiry form. Made sure the work and added buttons.</li>
@@ -101,24 +105,25 @@ To gain the trust of corporate contributors, increase monthly recurring individu
   <li>Delete ST10127622_WEDE5020_POE_PART_ONE/Root/Images directory</li>
   <li>Add files via upload</li>
   <li>Delete ST10127622_WEDE5020_POE_PART_TWO/Root directory</li>
-  <li>Header & Navigation: Displays Logo1.jpg in the header section alongside main navigation links pointing to about.html, contact.html, enquiry.html, and voices.html. Hero Carousel / Gallery: Features three full-width hero         images (HomePage1.jpg, HomePage2.jpg, HomePage3.jpg) set up inside a hero slider container. Main Content Area: Structured into introductory feature blocks highlighting core offerings, leading into call-to-action buttons for       inquiry and contact. Then added functions for pop-ups and a scroll up.</li>
-  <li>Company Profile: Features structured paragraphs covering mission, vision, and background story. Media Layout: Includes two dedicated image sections embedding AboutUs1.jpg and AboutUs2.jpg to showcase team/brand imagery         alongside textual descriptions. Also added functions for the footer and subscribing in the footer.</li>
+  <li>Header & Navigation: Displays Logo1.jpg in the header section alongside main navigation links pointing to about.html, contact.html, enquiry.html, and voices.html. Hero Carousel / Gallery: Features three full-width     hero images (HomePage1.jpg, HomePage2.jpg, HomePage3.jpg) set up inside a hero slider container. Main Content Area: Structured into introductory feature blocks highlighting core offerings, leading into call-to-          action buttons for inquiry and contact. Then added functions for pop-ups and a scroll up.</li>
+  <li>Company Profile: Features structured paragraphs covering mission, vision, and background story. Media Layout: Includes two dedicated image sections embedding AboutUs1.jpg and AboutUs2.jpg to showcase team/brand       imagery alongside textual descriptions. Also added functions for the footer and subscribing in the footer.</li>
   <li>Voices page: Testimonial Grid: Uses container elements (&lt;article&gt; / &lt;div&gt;) to group individual customer quotes, client names, and review ratings into cardsQa.</li>
-  <li>Specific Query Form: Built with structured form elements tailored for service inquiries, including dropdown select menus (&lt;select&gt;) for service categories and text inputs for dynamic details. Form Action: Set up with     standard button elements to process user entries. Submission functions and reset functions.</li>
-  <li>Contact Details: Contains standard contact information layout (address, email, operating hours). Interactive Form: Contains an HTML form with &lt;input type="text"&gt; for Name, &lt;input type="email"&gt; for Email,             &lt;input type="tel"&gt; for Phone, and a &lt;textarea&gt; for Message submission.</li>
+  <li>Specific Query Form: Built with structured form elements tailored for service inquiries, including dropdown select menus (&lt;select&gt;) for service categories and text inputs for dynamic details. Form Action:       Set up with standard button elements to process user entries. Submission functions and reset functions.</li>
+  <li>Contact Details: Contains standard contact information layout (address, email, operating hours). Interactive Form: Contains an HTML form with &lt;input type="text"&gt; for Name, &lt;input type="email"&gt; for         Email,&lt;input type="tel"&gt; for Phone, and a &lt;textarea&gt; for Message submission.</li>
   <li>Added Images and CSS folders</li>
   <li>Updated the README to include project details, goals, objectives, key features, timelines, and references. Removed outdated entries and improved formatting for clarity.</li>
   <li>Updated responsiveness for the file while also fixing all feedback</li>
 </ul>
 
 <h2>References:</h2><br>
-Figma, 2026. 53 Unique Website Color Schemes. [online]. Available at: https://www.figma.com/resource-library/website-color-schemes [Accessed: 12 August 2026].<br>
-Figma, 2026. Ultimate Guide to Typography in Design. [online]. Available at: https://www.figma.com/resource-library/typography-in-design [Accessed: 12 August 2026].<br>
-Oreate. 2026. Oreate (Version 6.0). [Generative AI image tool]. Available at: https://www.oreateai.com/ [Accessed: 12 August 2026].<br>
-Website Design, 2026. WooCommerce Websites – From R6650 | Open an Online Store. [online]. Available at: https://www.websitedesign.co.za/woocommerce.html [Accessed: 12 August 2026].<br>
-The Good Earth Garden. 2026. Solitary large oak tree in a sunny green meadow. [Online image]. Available at: https://thegoodearthgarden.com/plant-species/oak/ [Accessed 15 September 2026].<br>
-Unsplash. 2026. Hands holding a growing green seedling in rich soil. [Online image]. Available at: https://images.unsplash.com/photo-1416879595882-3373a0480b5b [Accessed 15 September 2026].<br>
-Unsplash. 2026. Lush green tree canopy looking up into sunlight. [Online image]. Available at: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09 [Accessed 15 September 2026].<br>
-Unsplash. 2026. Open and bright indoor office gathering space. [Online image]. Available at: https://images.unsplash.com/photo-1521737711867-e3b97375f902 [Accessed 15 September 2026].<br>
-Unsplash. 2026. Diverse group of young people standing together outdoors. [Online image]. Available at: https://images.unsplash.com/photo-1529156069898-49953e39b3ac [Accessed 15 September 2026].
-
+<ul>
+  <li>Figma, 2026. 53 Unique Website Color Schemes. [online]. Available at: https://www.figma.com/resource-library/website-color-schemes [Accessed: 12 August 2026].</li>
+  <li>Figma, 2026. Ultimate Guide to Typography in Design. [online]. Available at: https://www.figma.com/resource-library/typography-in-design [Accessed: 12 August 2026].</li>
+  <li>Oreate. 2026. Oreate (Version 6.0). [Generative AI image tool]. Available at: https://www.oreateai.com/ [Accessed: 12 August 2026].</li>
+  <li>The Good Earth Garden. 2026. Solitary large oak tree in a sunny green meadow. [Online image]. Available at: https://thegoodearthgarden.com/plant-species/oak/ [Accessed 15 September 2026].</li>
+  <li>Unsplash. 2026. Hands holding a growing green seedling in rich soil. [Online image]. Available at: https://images.unsplash.com/photo-1416879595882-3373a0480b5b [Accessed 15 September 2026].</li>
+  <li>Unsplash. 2026. Lush green tree canopy looking up into sunlight. [Online image]. Available at: https://images.unsplash.com/photo-1542601906990-b4d3fb778b09 [Accessed 15 September 2026].</li>
+  <li>Unsplash. 2026. Open and bright indoor office gathering space. [Online image]. Available at: https://images.unsplash.com/photo-1521737711867-e3b97375f902 [Accessed 15 September 2026].</li>
+  <li>Unsplash. 2026. Diverse group of young people standing together outdoors. [Online image]. Available at: https://images.unsplash.com/photo-1529156069898-49953e39b3ac [Accessed 15 September 2026].</li>
+  <li>Website Design, 2026. WooCommerce Websites – From R6650 | Open an Online Store. [online]. Available at: https://www.websitedesign.co.za/woocommerce.html [Accessed: 12 August 2026].</li>
+</ul>
