@@ -383,25 +383,24 @@ textarea:focus {
 }
 
 .mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%) translateY(-100%);
-    width: 90%;
-    max-width: 400px;
-    background: #2c3e50;
+    position: relative;
+    width: 100%;
+    max-width: none;
+    background: transparent;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
-    transition: transform 0.3s ease-in-out;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
     z-index: 2000;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: none;
 }
 
 .mobile-menu.active {
-    transform: translateX(-50%) translateY(0);
+    max-height: 400px;
 }
 
 .close-btn {
@@ -416,7 +415,7 @@ textarea:focus {
 
 .mobile-menu a {
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding: 12px 25px;
     color: #ecf0f1;
     text-decoration: none;
