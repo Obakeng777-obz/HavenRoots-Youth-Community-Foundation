@@ -100,7 +100,7 @@ August 14:<br>
   <li>Added a sitemap section, submit and reset buttons, and copyright information to the enquiry form. Made sure the work and added buttons.</li>
   <li>Added a sitemap section and a submit/reset button to the contact form. Updated image size and added copyright information. Made sure sitemap worked along with a submit form button.</li>
 </ul>
-
+September 16:<br>
 <ul>
   <li>Updated ChangeLog with detailed changes to various HTML files and README formatting.</li>
   <li>Updated project title and added new image references.</li>
