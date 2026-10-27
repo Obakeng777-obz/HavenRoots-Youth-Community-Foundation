@@ -1,4 +1,4 @@
-# WEDE5020-PART-TWO
+# WEDE5020-PART-POE
 <h1>Project Title:</h1> HavenRoots Youth & Community Foundation Website<br>
 
 <h2>Student Information:</h2>
@@ -132,4 +132,5 @@ September 16:<br>
   <li>Unsplash. 2026. Open and bright indoor office gathering space. [Online image]. Available at: https://images.unsplash.com/photo-1521737711867-e3b97375f902 [Accessed 15 September 2026].</li>
   <li>Unsplash. 2026. Diverse group of young people standing together outdoors. [Online image]. Available at: https://images.unsplash.com/photo-1529156069898-49953e39b3ac [Accessed 15 September 2026].</li>
   <li>Website Design, 2026. WooCommerce Websites – From R6650 | Open an Online Store. [online]. Available at: https://www.websitedesign.co.za/woocommerce.html [Accessed: 12 August 2026].</li>
+  <li>Clipart Library. 2026. Free Opened Book. [Online image]. Available at: <https://clipart-library.com/opened-book.html> [Accessed: 22 October 2026].</li>
 </ul>
