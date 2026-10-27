@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X / Twitter Feed</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: #000; color: #e7e9ea; padding: 15px; display: flex; justify-content: center; }
+        .x-card { background: #000; width: 100%; max-width: 500px; border: 1px solid #2f3336; border-radius: 16px; padding: 16px; }
+        .x-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+        .x-header-left { display: flex; align-items: center; gap: 12px; }
+        .x-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+        .x-user-info h4 { font-size: 15px; font-weight: 700; color: #f7f9f9; }
+        .x-user-info span { font-size: 14px; color: #71767b; }
+        .x-caption { font-size: 15px; line-height: 1.5; margin-bottom: 12px; color: #f7f9f9; }
+        .x-hashtags { color: #1d9bf0; margin-top: 6px; }
+        .x-image-container { border-radius: 16px; overflow: hidden; border: 1px solid #2f3336; margin-bottom: 12px; }
+        .x-image-container img { width: 100%; display: block; }
+        .x-meta { font-size: 14px; color: #71767b; padding-bottom: 12px; border-bottom: 1px solid #2f3336; margin-bottom: 12px; }
+        .x-stats { display: flex; justify-content: space-between; color: #71767b; font-size: 13px; max-width: 400px; }
+    </style>
+</head>
+<body>
+    <div class="x-card">
+        <div class="x-header">
+            <div class="x-header-left">
+                <img src="../Images/Logo1.jpg" alt="HavenRoots Logo" class="x-avatar">
+                <div class="x-user-info">
+                    <h4>Havenroots & Youth Foundation</h4>
+                    <span>@HavenrootsYouth</span>
+                </div>
+            </div>
+            <div style="color: #71767b;">•••</div>
+        </div>
+        <div class="x-caption">
+            Together we create opportunities, inspire change and build a brighter future for our youth. 🌱💚
+            <div class="x-hashtags">
+                #HavenrootsYouthFoundation #EmpowerYouth #StrongerTogether #Education #Community #Hope #FutureLeaders
+            </div>
+        </div>
+        <div class="x-image-container">
+            <img src="../Images/Plant.jpg" alt="HavenRoots Community">
+        </div>
+        <div class="x-meta">
+            10:24 AM · Apr 26, 2025 · <strong>8,742</strong> Views
+        </div>
+        <div class="x-stats">
+            <span>💬 142</span>
+            <span>🔁 367</span>
+            <span>❤️ 1.2K</span>
+            <span>🔖 48</span>
+            <span>📤</span>
+        </div>
+    </div>
+</body>
+</html>

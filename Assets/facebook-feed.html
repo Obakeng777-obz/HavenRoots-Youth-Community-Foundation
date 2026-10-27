@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Feed</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: #f0f2f5; padding: 15px; display: flex; justify-content: center; }
+        .fb-card { background: #fff; width: 100%; max-width: 500px; border-radius: 8px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); overflow: hidden; border: 1px solid #ced0d4; }
+        .fb-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; }
+        .fb-header-left { display: flex; align-items: center; gap: 10px; }
+        .fb-avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+        .fb-user-info h4 { font-size: 15px; font-weight: 600; color: #050505; }
+        .fb-user-info span { font-size: 13px; color: #65676b; }
+        .fb-dots { color: #65676b; font-weight: bold; font-size: 18px; cursor: pointer; }
+        .fb-caption { padding: 0 16px 12px; font-size: 14px; color: #050505; line-height: 1.4; }
+        .fb-hashtags { color: #1877f2; font-weight: 500; margin-top: 6px; }
+        .fb-image-container img { width: 100%; display: block; }
+        .fb-stats { display: flex; justify-content: space-between; padding: 10px 16px; border-bottom: 1px solid #e4e6eb; font-size: 13px; color: #65676b; }
+        .fb-actions { display: flex; justify-content: space-around; padding: 6px 0; }
+        .fb-action-btn { display: flex; align-items: center; gap: 6px; background: none; border: none; color: #65676b; font-weight: 600; font-size: 14px; padding: 8px 12px; cursor: pointer; border-radius: 4px; }
+        .fb-action-btn:hover { background: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <div class="fb-card">
+        <div class="fb-header">
+            <div class="fb-header-left">
+                <img src="../Images/Logo1.jpg" alt="HavenRoots Logo" class="fb-avatar">
+                <div class="fb-user-info">
+                    <h4>Havenroots & Youth Foundation</h4>
+                    <span>2h · 🌎</span>
+                </div>
+            </div>
+            <div class="fb-dots">•••</div>
+        </div>
+        <div class="fb-caption">
+            Together we create opportunities, inspire change and build a brighter future for our youth. 🌱💚
+            <div class="fb-hashtags">
+                #HavenrootsYouthFoundation #EmpowerYouth #StrongerTogether #Education #Community #Hope #FutureLeaders
+            </div>
+        </div>
+        <div class="fb-image-container">
+            <img src="../Images/HomePage1.jpg" alt="HavenRoots Community">
+        </div>
+        <div class="fb-stats">
+            <div>👍❤️ 248</div>
+            <div>12 comments · 32 shares</div>
+        </div>
+        <div class="fb-actions">
+            <button class="fb-action-btn">👍 Like</button>
+            <button class="fb-action-btn">💬 Comment</button>
+            <button class="fb-action-btn">↗️ Share</button>
+        </div>
+    </div>
+</body>
+</html>

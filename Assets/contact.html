@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<!--Sets the document language to english-->
+<html lang="en">
+    <head>
+        <!--The code defines the character coding of the the page-->
+        <meta charset="UTF-8">
+        <!--Controls how the page is displayed on different devices.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--SEO Meta Description-->
+        <meta name="description" content="Contact HavenRoots Youth & Community Foundation. Get in touch via phone, email, visit our office in Johannesburg, or send us a message online.">
+        <!--SEO Meta Keywords-->
+        <meta name="keywords" content="contact HavenRoots, foundation address, Johannesburg office, phone number, email support, volunteer inquiry">
+        <!--SEO-Optimised Title Tag-->
+        <title>Contact Us & Office Location | HavenRoots Foundation</title>
+        <!--The link of the page to the css style sheet-->
+        <link rel="stylesheet" href="../CSS/style.css">
+
+        <!-- HTTP Strict Transport Security (HSTS) & Security Policies -->
+            <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data:;">
+            <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+            <meta http-equiv="X-Content-Type-Options" content="nosniff">
+            <meta name="referrer" content="strict-origin-when-cross-origin">
+
+        <style>
+            /* Interactive Map Container Styling */
+            .map-container {
+                width: 100%;
+                max-width: 1000px;
+                margin: 0 auto;
+                border: 4px solid #16a085;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            /* Internal styles unique to Contact Page */
+            .banner {
+                position: relative;
+                margin-top: 0;
+                background: url('../Images/contactUs.jpg') no-repeat center center;
+                background-size: cover;
+                color: #fff;
+                text-align: center;
+                padding: 130px 20px 80px;
+            }
+
+            /* Overlay to fade background */
+            .banner::before {
+                content: "";
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: rgba(0,0,0,0.5); /* dimmer overlay */
+                z-index: 1;
+            }
+
+            /* Content above overlay */
+            .banner-content {
+                position: relative;
+                z-index: 2;
+            }
+
+            /* Logo styling */
+            .banner-logo {
+                width: 200px;   /* larger size */
+                height: 200px;
+                border: 5px solid #16a085;
+                border-radius: 50%; /* keeps circular shape */
+                margin-bottom: 15px;
+                background: #fff;
+            }
+
+            /* Headings */
+            .banner h1, .banner h3 {
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+                margin-bottom: 20px;
+            }
+
+            /* Text wrap effect */
+            .banner p {
+                max-width: 800px;
+                margin: auto;
+                font-size: 1.2rem;
+                line-height: 1.6;
+                background: rgba(0,0,0,0.5); /* semi-transparent box */
+                padding: 20px;
+                border-radius: 8px;
+            }
+
+            /* Red error message styling underneath inputs */
+            .error-message {
+                color: red;
+                font-size: 0.9rem;
+                display: block;
+                margin-top: 5px;
+                font-weight: bold;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <!-- Floating Center-Right Social Sidebar -->
+        <div class="social-sidebar">
+            <button onclick="openSocialModal('Facebook', 'facebook-feed.html')" aria-label="Facebook Page">
+                <svg viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+            </button>
+            <button onclick="openSocialModal('Instagram', 'instagram-feed.html')" aria-label="Instagram Page">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </button>
+            <button onclick="openSocialModal('Twitter / X', 'twitter-feed.html')" aria-label="Twitter Page">
+                <svg viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+            </button>
+        </div>
+
+        <!-- Social Iframe Modal -->
+        <div id="socialModal" class="social-modal">
+            <div class="social-modal-container">
+                <div class="social-modal-header">
+                    <h3 id="socialModalTitle">Social Media Feed</h3>
+                    <span class="social-modal-close" onclick="closeSocialModal()">&times;</span>
+                </div>
+                <div class="social-modal-body">
+                    <iframe id="socialIframe" src="" title="HavenRoots Social Feed"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <!-- This is the styling in the header. Logo + heading/tagline on the left and search + donate button on the right -->
+                <div class="header-top">
+                    <div class="nav-left">
+                        <a href="../index.html">
+                            <img src="../Images/Logo1.jpg" alt="HavenRoots Logo">
+                        </a>
+                        <div class="nav-left-text">
+                            <h1>Contact Us</h1>
+                            <p>Deep Roots, Bright Futures.</p>
+                        </div>
+                    </div>
+
+                    <div class="nav-right">
+                        <!-- Replaced search bar with search icon button -->
+                        <button class="search-icon-btn" id="searchBtn" aria-label="Open Search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                        <a href="enquiry.html" class="btn donate-btn">Donate</a>
+                    </div>
+                </div>
+
+                <nav>
+                    <!-- Hamburger button visible on mobile -->
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                        ☰
+                    </button>
+                </nav>
+
+            <!-- Slide-out menu -->
+                <div class="mobile-menu" id="mobileMenu">
+                    <button class="close-btn" id="closeBtn">✕</button>
+                    <a href="../index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="voices.html">Voices of HavenRoots</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="faqs.html">FAQs</a>
+                    <a href="#">Contact Us</a>
+                </div>
+        </header>
+
+            <nav>
+                <div class="nav-links">
+                    <!--This is the code for the navigation bar for all the pages with internal links-->
+                    <a href="../index.html">Home Page</a>
+                    <a href="about.html">About Us</a>
+                    <a href="voices.html">Voices of HavenRoots</a>
+                    <a href="enquiry.html">Enquiry</a>
+                    <a href="faqs.html">FAQs</a>
+                    <a href="#" class="active" aria-current="page">Contact Us</a>
+                </div>
+            </nav>
+
+        <main>
+            <section>
+                <!--This the code for the banner. It includes division of sections of the banner-->
+                <div class="banner">
+                    <div class="banner-overlay"></div>
+                        <div class="banner-content">
+                            <img src="../Images/Logo1.jpg" alt="HavenRoots Logo" class="banner-logo">
+                            <h1 style="color: white;">Get in touch</h1>
+                            <h2 style="color: white;">How we are reached</h2>
+
+                        <div class="banner-layout">
+                            <!-- Left side text -->
+                            <div class="banner-text">
+                                <!--The First paragraph of the page-->
+                                <p>
+                                    We would love to hear from you! Whether you have questions about our youth programs, want to drop off physical donations, or need assistance,<br>
+                                    reach out to our team using the form or contact details below. 
+                                </p>
+                            </div>
+
+                            <!-- Divider -->
+                            <div class="banner-divider"></div>
+
+                            <!-- Right side buttons -->
+                            <div class="banner-buttons">
+                                 <a href="enquiry.html"><button type="button">Get Involved</button></a> <a href="about.html"><button type="button">Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><br>
+
+            <section class="searchable-section" style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--The first heading of the page in heading one style-->
+                <h1>
+                    <span class="heading-One-part1">Get</span>
+                    <span class="heading-One-part2">in Touch</span>
+                </h1>
+                
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                <!--Bullet points that each have a bold before the colon-->
+                    <ul style="text-align: left;">
+                        <li><b>Main Office & Youth Hub:</b><br>
+                        124 Hope Street, Central Community Precinct, Johannesburg, 2001
+                        </li><br>
+
+                        <li><b>Operating Hours:</b><br>
+                        Monday – Friday: 08:00 – 17:00<br>
+                        Saturday: 09:00 – 13:00 (Youth Programs & Community Garden)<br>
+                        Sunday: Closed
+                        </li><br>
+
+                        <li><b>Phone: </b><a href="tel:+27117820122">+27 11 782 0122</a> </li><br>
+                        <li><b>Email Direct:</b>
+                            <ul>
+                                <!--Bullet points that each have a bold before the colon-->
+                                <li>General Inquiries: <a href="mailto:info@havenroots.com">info@havenroots.com</a></li>
+                                <li>Program and Volunteer Support: <a href="mailto:community@havenroots.com">community@havenroots.com</a></li>
+                                <li>Partnerships and Corporate Giving: <a href="mailto:donations@havenroots.com">donations@havenroots.com</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="searchable-section" style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--The Third heading of the page in heading two style-->
+                <h2>Contact and Message Form</h2>
+                
+                <!--Form connected to Formspree with custom validation handling -->
+                <form id="contactForm" action="https://formspree.io/f/mpppzeyj" method="POST" style="text-align: left;" novalidate>
+                    <!--This is a divider so the text can be within a quote block-->
+                    <div class="quote-block">
+                        <p>
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Please enter your name..." required>
+                            <span id="nameError" class="error-message"></span>
+                        </p>
+
+                        <p>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                            <span id="emailError" class="error-message"></span>
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+27117820122 or 0117820122" required>
+                            <span id="phoneError" class="error-message"></span>
+                        </p>
+
+                        <p>
+                            <label for="contactMessage">Reason for Contacting Us:</label>
+                                <textarea
+                                    id="contactMessage"
+                                    name="message"
+                                    rows="8"
+                                    cols="40"
+                                    placeholder ="Please state the reason for contacting us..."
+                                    required>
+                                </textarea>
+                                <span id="messageError" class="error-message"></span>
+                        </p>
+                        
+                        </div>
+
+                        <p style="text-align: center;">
+                            <button type="submit">Submit</button>
+                            <button type="reset" id="resetBtn">Reset</button>
+                        </p>
+                </form>
+            </section><br>
+
+            <section>
+                <!--The Fourth heading of the page in heading three style-->
+                <h2 style="text-align: center; margin: 0 auto; max-width: 1000px;">Location and Directions</h2>
+                <!--Google maps direction to business-->
+                <iframe style="margin-left: auto; margin-right: auto; border:4px solid #16a085" width="100%" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6019.349725753265!2d27.864245982470106!3d-26.225070461536873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a13afff00e71%3A0xc2d4949161f9d6fa!2sKopanong%20Hall!5e0!3m2!1sen!2sza!4v1786432803865!5m2!1sen!2sza"></iframe>
+                
+                <br>
+            </section>
+
+            <section class="searchable-section" style="text-align: center; margin: 0 auto; max-width: 1000px;">
+                <!--This is a divider so the text can be within a quote block-->
+                <div class="quote-block">
+                <!--The Second paragraph of the page-->
+                    <p>
+                        <!--Bold line before colon and italics for rest of the-->
+                        <b>Note on Site Visits:</b><i> Visitors and donors are welcome to visit our urban garden and administrative<br>
+                        office during standard operating hours. For program site tours or group visits, please schedule an<br>
+                        appointment in advance via email.</i>
+                    </p>
+                </div>
+            </section><br>
+        </main>
+
+    <!--A footer for the website along with a bold finish-->
+    <footer>
+        <!--The divder that seperates the content into a seperate column-->
+        <div class="footer-columns">
+            <div class="footer-column">
+                <img src="../Images/Logo1.jpg" alt="Footer logo">
+                <h2>HavenRoots Youth&amp; Community Foundation</h2>
+            </div>
+
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Quick Links:</h3>
+                    <a href="../index.html">Home</a><br>
+                    <a href="about.html">About Us</a><br>
+                    <a href="voices.html">Voices of HavenRoots</a><br>
+                    <a href="enquiry.html">Enquiry</a><br>
+                    <a href="faqs.html">FAQs</a><br><br>
+            </div>
+            
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                    <b>Phone: </b><a href="tel:+27117820122">+27 11 782 0122</a><br>
+                    <b>Email Direct: </b><a href="mailto:info@havenroots.com">info@havenroots.com</a><br>
+                    <b>Address: </b>Dobsonville, Johannesburg, 1363<br><br>
+            </div>
+
+            <!--The divder that seperates the content into a seperate column-->
+            <div class="footer-column">
+                <h3>Keep in Touch</h3>
+                <!--This the small form that lets users subscribe to the subscription quickly-->
+                <form id="footerForm" action="https://formspree.io/f/mpppzeyj" method="POST" novalidate>
+                    <p>
+                        <label for="footer-name">Full Name:</label><br>
+                        <input type="text" id="footer-name" name="name" placeholder="Please enter your name..." required>
+                        <span id="footerNameError" class="error-message"></span>
+                    </p>
+
+                    <p>
+                        <label for="footer-email">Email Address:</label><br>
+                        <input type="email" id="footer-email" name="email" placeholder="name@example.com" required>
+                        <span id="footerEmailError" class="error-message"></span><br>
+                    </p>
+
+                    <p>
+                        <button type="submit">Subscribe</button>
+                        <button type="reset" id="footerResetBtn">Reset</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+            <hr>
+
+            <!--Copyright, Trademark, And Year of registration-->
+            <p>
+                Copyright: 2021 HavenRoots. All rights Reserved<br>
+                Trademark: HavenRoots(TM)<br>
+                Year of registration: 2021
+            </p>
+        </div>
+    </footer>
+    
+        <!--The button on the bottom right of the page that sends you back to the top-->
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                width="34" height="34" fill="none" stroke="black" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 15 12 9 18 15" />
+            </svg>
+        </button>
+
+        <!-- Search Popup Modal Container -->
+        <div id="searchModal" class="search-modal">
+            <div class="search-modal-content">
+                <span class="search-modal-close" id="searchClose">&times;</span>
+                <input type="text" id="popupSearchInput" placeholder="Search..." onkeyup="filterPageContent()">
+            </div>
+        </div>
+
+        <!--
+        References:
+        Unsplash. 2026. Open and bright indoor office gathering space. [Online image]. Available at: <https://images.unsplash.com/photo-1521737711867-e3b97375f902> [Accessed 15 September 2026].
+        -->
+    </body>
+</html>
+
+<script>
+    // Social Modal Functions
+    function openSocialModal(name, url) {
+        document.getElementById("socialModalTitle").innerText = "HavenRoots " + name + " Feed";
+        document.getElementById("socialIframe").src = url;
+        document.getElementById("socialModal").classList.add("active");
+    }
+
+    function closeSocialModal() {
+        document.getElementById("socialModal").classList.remove("active");
+        document.getElementById("socialIframe").src = "";
+    }
+
+    // Function to display pop up message to say they joined
+    function subscribe() {
+        alert("We at HavenRoots Welcome You");
+    }
+
+    // Custom Form Validation and AJAX submission handler with red inline messages
+    document.addEventListener("DOMContentLoaded", function() {
+        const contactForm = document.getElementById("contactForm");
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const phoneInput = document.getElementById("phone");
+        const messageInput = document.getElementById("contactMessage");
+        const resetBtn = document.getElementById("resetBtn");
+
+        const nameError = document.getElementById("nameError");
+        const emailError = document.getElementById("emailError");
+        const phoneError = document.getElementById("phoneError");
+        const messageError = document.getElementById("messageError");
+
+        if (contactForm) {
+            contactForm.addEventListener("submit", function(e) {
+                e.preventDefault();
+                
+                let isValid = true;
+
+                // Clear prior error messages
+                nameError.textContent = "";
+                emailError.textContent = "";
+                phoneError.textContent = "";
+                messageError.textContent = "";
+
+                // 1. Validate Full Name (Required / not empty)
+                if (!nameInput.value.trim()) {
+                    nameError.textContent = `You entered: "${nameInput.value}". This field is required. Please enter your full name.`;
+                    isValid = false;
+                }
+
+                // 2. Validate Email (Must have words before and after @ symbol)
+                const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                if (!emailInput.value.trim()) {
+                    emailError.textContent = `You entered: "${emailInput.value}". This field is required.`;
+                    isValid = false;
+                } else if (!emailRegex.test(emailInput.value.trim())) {
+                    emailError.textContent = `You entered: "${emailInput.value}". Incorrect email format. Right way to type it: name@example.com`;
+                    isValid = false;
+                }
+
+                // 3. Validate Phone Number (South African phone number format: e.g. +27117820122 or 0117820122)
+                const saPhoneRegex = /^(\+27|0)[6-8][0-9]{8}$/;
+                if (!phoneInput.value.trim()) {
+                    phoneError.textContent = `You entered: "${phoneInput.value}". This field is required.`;
+                    isValid = false;
+                } else if (!saPhoneRegex.test(phoneInput.value.trim().replace(/[\s-]/g, ''))) {
+                    phoneError.textContent = `You entered: "${phoneInput.value}". Incorrect South African phone format. Right way to type it: +27117820122 or 0117820122.`;
+                    isValid = false;
+                }
+
+                // 4. Validate Reason for Contacting (Required / not empty)
+                if (!messageInput.value.trim()) {
+                    messageError.textContent = `You entered: "${messageInput.value}". This field is required. Please state your reason for contacting us.`;
+                    isValid = false;
+                }
+
+                if (!isValid) {
+                    return; // Stop submission if validation fails
+                }
+
+                // If valid, submit via AJAX to Formspree backend
+                const formData = new FormData(contactForm);
+
+                fetch(contactForm.action, {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                    if (response.ok) {
+                        alert("We'll get back to you soon ;)");
+                        contactForm.reset();
+                        nameError.textContent = "";
+                        emailError.textContent = "";
+                        phoneError.textContent = "";
+                        messageError.textContent = "";
+                    } else {
+                        alert("Oops! There was a problem submitting your form.");
+                    }
+                }).catch(error => {
+                    alert("Oops! There was a problem submitting your form.");
+                });
+            });
+
+            // Clear errors on form reset
+            if (resetBtn) {
+                resetBtn.addEventListener("click", function() {
+                    nameError.textContent = "";
+                    emailError.textContent = "";
+                    phoneError.textContent = "";
+                    messageError.textContent = "";
+                });
+            }
+        }
+
+        const footerForm = document.getElementById("footerForm");
+        const footerNameInput = document.getElementById("footer-name");
+        const footerEmailInput = document.getElementById("footer-email");
+        const footerResetBtn = document.getElementById("footerResetBtn");
+
+        const footerNameError = document.getElementById("footerNameError");
+        const footerEmailError = document.getElementById("footerEmailError");
+
+        if (footerForm) {
+            footerForm.addEventListener("submit", function(e) {
+                e.preventDefault();
+                let isValid = true;
+
+                if (footerNameError) footerNameError.textContent = "";
+                if (footerEmailError) footerEmailError.textContent = "";
+
+                if (footerNameInput && !footerNameInput.value.trim()) {
+                    if (footerNameError) {
+                        footerNameError.textContent = `You entered: "${footerNameInput.value}". This field is required. Please enter your full name.`;
+                    }
+                    isValid = false;
+                }
+
+                const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                if (footerEmailInput && !footerEmailInput.value.trim()) {
+                    if (footerEmailError) {
+                        footerEmailError.textContent = `You entered: "${footerEmailInput.value}". This field is required.`;
+                    }
+                    isValid = false;
+                } else if (footerEmailInput && !emailRegex.test(footerEmailInput.value.trim())) {
+                    if (footerEmailError) {
+                        footerEmailError.textContent = `You entered: "${footerEmailInput.value}". Incorrect email format. Right way to type it: name@example.com`;
+                    }
+                    isValid = false;
+                }
+
+                if (!isValid) return;
+
+                const formData = new FormData(footerForm);
+                fetch(footerForm.action, {
+                    method: "POST",
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                }).then(response => {
+                    if (response.ok) {
+                        alert("We at HavenRoots Welcome You");
+                        footerForm.reset();
+                        if (footerNameError) footerNameError.textContent = "";
+                        if (footerEmailError) footerEmailError.textContent = "";
+                    } else {
+                        alert("Oops! There was a problem submitting your subscription.");
+                    }
+                }).catch(() => {
+                    alert("Oops! There was a problem submitting your subscription.");
+                });
+            });
+
+            if (footerResetBtn) {
+                footerResetBtn.addEventListener("click", function() {
+                    if (footerNameError) footerNameError.textContent = "";
+                    if (footerEmailError) footerEmailError.textContent = "";
+                });
+            }
+        }
+    });
+
+    // Function of button that sends the user back to the top of page
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+        const btn = document.getElementById("backToTopBtn");
+        if (btn) {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+    }
+
+    // Function of scroll back up when button is pressed.
+    function topFunction() {
+        const scrollDuration = 600; 
+        const scrollStep = -window.scrollY / (scrollDuration / 15);
+
+        const scrollInterval = setInterval(() => {
+            if (window.scrollY !== 0) {
+                window.scrollBy(0, scrollStep);
+            } else {
+                clearInterval(scrollInterval);
+            }
+        }, 15);
+    }
+
+    // Function of hamburger button that opens navigation that is hidden and closes it
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const closeBtn = document.getElementById("closeBtn");
+
+    if (hamburgerBtn && mobileMenu && closeBtn) {
+        hamburgerBtn.addEventListener("click", () => {
+            mobileMenu.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+        });
+    }
+
+    // Search Popup Functionality
+    const searchBtn = document.getElementById("searchBtn");
+    const searchModal = document.getElementById("searchModal");
+    const searchClose = document.getElementById("searchClose");
+    const popupSearchInput = document.getElementById("popupSearchInput");
+
+    if (searchBtn && searchModal && searchClose) {
+        searchBtn.addEventListener("click", () => {
+            searchModal.classList.add("active");
+            popupSearchInput.focus();
+        });
+        searchClose.addEventListener("click", () => {
+            searchModal.classList.remove("active");
+        });
+        searchModal.addEventListener("click", (e) => {
+            if (e.target === searchModal) {
+                searchModal.classList.remove("active");
+            }
+        });
+    }
+
+    // Close modal when Enter key is pressed in search input
+    if (popupSearchInput && searchModal) {
+        popupSearchInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                searchModal.classList.remove("active");
+                popupSearchInput.blur();
+            }
+        });
+    }
+
+    // Function for search filter
+    function filterPageContent() {
+        const query = popupSearchInput.value.toLowerCase();
+        const sections = document.querySelectorAll(".searchable-section, .quote-block");
+        sections.forEach(sec => {
+            const text = sec.innerText.toLowerCase();
+            if (text.includes(query)) {
+                sec.style.display = "";
+            } else {
+                sec.style.display = "none";
+            }
+        });
+    }
+</script>
