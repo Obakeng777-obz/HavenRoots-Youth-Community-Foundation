@@ -123,7 +123,16 @@ September 16:<br>
   <li>Updated the README to include project details, goals, objectives, key features, timelines, and references. Removed outdated entries and improved formatting for clarity.</li>
   <li>Updated responsiveness for the file while also fixing all feedback</li>
 </ul>
-
+October 24:<br>
+<ul>
+  <li>Add animation in pages</li>
+  <li>Updated JavaScript organistation</li>
+  <li>Added form validation for enquiry form</li>
+  <li>Added form validation for contact us page</li>
+  <li>Added form validation for all footer forms</li>
+  <li>Sorted JavaScript in pages</li>
+  <li>Delete ST10127622_WEDE5020_POE_PART_ONE/Root/Images directory</li>
+</ul>
 <h2>References:</h2><br>
 <ul>
   <li>Clipart Library. 2026. Free Opened Book. [Online image]. Available at: https://clipart-library.com/opened-book.html [Accessed: 22 October 2026].</li>
