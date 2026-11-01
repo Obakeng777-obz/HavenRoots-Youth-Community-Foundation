@@ -132,6 +132,18 @@ October 24:<br>
   <li>Added form validation for all footer forms</li>
   <li>Sorted JavaScript in pages</li>
   <li>Delete ST10127622_WEDE5020_POE_PART_ONE/Root/Images directory</li>
+  <li>Added a new page in order to add a modal to it</li>
+  <li>Added a gallery box for images</li>
+  <li>Implemented filter functionality in voices page</li>
+  <li>Added meta tags in each page</li>
+  <li>Create three new webpages to act as iframes</li>
+  <li>linked pages to logos to act a simulations of social media</li>
+  <li>Created a robots txt file</li>
+  <li>Created an xml sitemap file</li>
+  <li>Added security features to each html page</li>
+  <li>Added form validation to all forms in webiste</li>
+  <li>Deployed website on github</li>
+  <li>Updated github readme.md</li>
 </ul>
 <h2>References:</h2><br>
 <ul>
